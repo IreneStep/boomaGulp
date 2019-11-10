@@ -1,0 +1,85 @@
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+
+  &__content {
+    background: #FFFFFF;
+    border: 0.595386px solid #BFBFBF;
+    box-sizing: border-box;
+    width: 462px;
+    height: 601px;
+    display: flex;
+    position: absolute;
+    margin: 15% 40%;
+
+    &__close {
+      height: 32px;
+      width: 32px;
+      border: 2px solid #DBDBDB;
+      border-radius: 20px;
+      margin-top: 7px;
+      margin-left: 421px;
+      padding: 8px 10px 8px 8px;
+      cursor: pointer;
+    }
+
+    &__main {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+
+      p {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        width: 396.21px;
+        height: 100.92px;
+        color: #000000;
+        position: absolute;
+        left: 32px;
+        top: 27.5px;
+      }
+    }
+  }
+
+}
+
+table {
+  position: absolute;
+  left: 32px;
+  top: 140px;
+  border-collapse: collapse;
+  width: 400px;
+}
+
+th {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  padding-top: 6px;
+  padding-bottom: 4.5px;
+  border: 1px solid black;
+}
+
+td {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 140%;
+  color: #000000;
+  border: 1px solid black;
+  text-align: center;
+}

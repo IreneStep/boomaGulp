@@ -1,0 +1,55 @@
+.nav {
+  background-image: url(../components/img/block-1.png);
+  background-size: cover;
+  height: 657px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 389px;
+  padding-right: 479px;
+
+  &__pics {
+    &__first {
+      position: absolute;
+      top: 29px;
+      left: 911px;
+    }
+
+    &__second {
+      position: absolute;
+      top: -4px;
+      left: 1020px;
+    }
+  }
+
+  &__description {
+    &__title {
+      position: absolute;
+      top: 230px;
+      color: #FFFFFF;
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: 800;
+      font-size: 44px;
+      line-height: 54px;
+      width: 634px;
+      height: 52.65px;
+    }
+    &__button {
+      position: absolute;
+      width: 322px;
+      height: 65px;
+      top: 391px;
+      background: #BB0070;
+      color: #FFFFFF;
+      border-radius: 5px;
+      text-decoration: none;
+      padding: 11px 96px 21px 96px;
+      font-family: 'Montserrat', sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 40px;
+    }
+  }
+}

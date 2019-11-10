@@ -1,0 +1,121 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 1920px;
+  height: 421.6px;
+  background: #000000;
+  margin-top: 80.4px;
+
+  &__header {
+    display: flex;
+    height: 167px;
+
+    &__info {
+      display: flex;
+      flex-direction: column;
+      padding-right: 50px;
+      margin-left: 406px;
+
+      &__logo {
+        margin-top: 42px;
+      }
+
+      &__nav {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 25px;
+        text-align: right;
+        color: #B53EFF;
+        margin-top: 15px;
+      }
+    }
+
+    &__contact {
+      margin-top: 42px;
+      font-family: Montserrat;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 141.4%;
+      color: #CBCBCB;
+      height: 85px;
+      margin-right: 120px;
+      margin-left: 35px;
+
+      span {
+        color: #FF7474;
+      }
+    }
+
+    &__socialNetworks {
+      display: flex;
+
+      &__description {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 25px;
+        text-align: right;
+        color: #B4B4B4;
+        width: 122px;
+        height: 25px;
+        margin-top: 23px;
+      }
+
+      &__icon {
+        height: 35px;
+        margin-top: 16px;
+        display: flex;
+        justify-content: space-between;
+
+        &__linkFacedook {
+          padding-left: 17px;
+          text-decoration: none;
+          background: #B4B4B4;
+          border-radius: 5px;
+          margin-left: 7px;
+          padding: 5px 4px 0 14.6px;
+        }
+
+        &__linkYoutube {
+          padding-left: 17px;
+          text-decoration: none;
+          background: #B4B4B4;
+          border-radius: 5px;
+          margin-left: 7px;
+          padding: 7px 7px 7px 10px;
+        }
+
+        &__linkWithoutBackground {
+          margin-left: 7px;
+        }
+      }
+    }
+  }
+
+  &__textContent {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 141.4%;
+    color: #CBCBCB;
+    align-self: center;
+
+    span {
+      color: #FF7474;
+    }
+  }
+
+  &__guarantee {
+    padding-right: 750px;
+    align-self: auto;
+    padding-left: 406px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+  }
+}
